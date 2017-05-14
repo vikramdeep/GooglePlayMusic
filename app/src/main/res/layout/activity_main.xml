@@ -87,7 +87,8 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent">
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.47">
 
         <ImageView
             android:id="@+id/imageView16"
@@ -126,7 +127,7 @@
         <ImageView
             android:id="@+id/imageView15"
             android:layout_width="93dp"
-            android:layout_height="match_parent"
+            android:layout_height="114dp"
             app:srcCompat="@drawable/ar"
             android:layout_weight="0.13" />
 
