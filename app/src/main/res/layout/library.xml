@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a1691595.googleplaymusic.Main2Activity">
+    tools:context="com.example.a1691595.googleplaymusic.library">
     <LinearLayout
         android:layout_width="380dp"
         android:layout_height="242dp"
@@ -170,6 +170,8 @@
             android:id="@+id/imageView19"
             android:layout_width="match_parent"
             android:layout_height="70dp"
+            android:onClick="home"
+
             app:srcCompat="@drawable/ho" />
 
 
